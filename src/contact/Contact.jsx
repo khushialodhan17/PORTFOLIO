@@ -11,11 +11,11 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_i9bv3td",
-        "template_j6ffska",
-        form.current,
-        "wm0DcGmT4bJErm3Hy"
-      )
+      "service_8kvi6rn", // service ID
+      "template_ziln12k", // template ID
+      form.current,
+      "hL9OV3BF2Ea1g42-d" // Public key
+    )
       .then(
         () => {
           setIsSent(true);
