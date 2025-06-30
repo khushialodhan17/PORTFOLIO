@@ -37,7 +37,7 @@ function Projects() {
             className="image-item flex-shrink-0 w-[60vw]"
             whileHover={{ width: 1400 }}
             onClick={() =>
-              window.open("https://quick-show-liart.vercel.app/", "_blank")
+              window.open("https://quick-show-vercel.vercel.app/", "_blank")
             }
           >
             <ImageContainer
@@ -49,7 +49,7 @@ function Projects() {
             className="image-item flex-shrink-0 w-[60vw]"
             whileHover={{ width: 1200 }}
             onClick={() =>
-              window.open("https://expense-mate-rxxz.vercel.app/", "_blank")
+              window.open("https://expense-mate-master.vercel.app/", "_blank")
             }
           >
             <ImageContainer
@@ -57,18 +57,51 @@ function Projects() {
               description={"hello world"}
             />
           </motion.div>{" "}
+
           <motion.div
             className="image-item flex-shrink-0 w-[60vw]"
             whileHover={{ width: 1400 }}
             onClick={() =>
               window.open(
-                "https://leet-code-buddy-trial-web-page-main.vercel.app/",
+                "https://leet-code-buddy-trial-web-page-main-tan.vercel.app/",
                 "_blank"
               )
             }
           >
             <ImageContainer
               imageSource={"pro6.png"}
+              description={"hello world"}
+            />
+          </motion.div>
+
+          <motion.div
+            className="image-item flex-shrink-0 w-[60vw]"
+            whileHover={{ width: 1400 }}
+            onClick={() =>
+              window.open(
+                "https://khushialodhan17.github.io/Createch/",
+                "_blank"
+              )
+            }
+          >
+            <ImageContainer
+              imageSource={"smartmaritime.png"}
+              description={"hello world"}
+            />
+          </motion.div>
+
+          <motion.div
+            className="image-item flex-shrink-0 w-[60vw]"
+            whileHover={{ width: 1400 }}
+            onClick={() =>
+              window.open(
+                "https://pg-life-easy-accommodation.netlify.app/",
+                "_blank"
+              )
+            }
+          >
+            <ImageContainer
+              imageSource={"pg-life.png"}
               description={"hello world"}
             />
           </motion.div>
