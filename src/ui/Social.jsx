@@ -8,7 +8,7 @@ function Social() {
       transition={{ duration: 0.5, delay: 0.2 }}
       className="flex flex-row  w-max justify-center items-center  text-white text-3xl gap-2 rounded-full"
     >
-      <motion.span
+      {/* <motion.span
         whileHover={{ scale: 1.1, rotate: 360 }}
         transition={{ type: "spring", duration: 0.5, stiffness: 300 }}
         whileTap={{ scale: 0.9 }}
@@ -18,7 +18,7 @@ function Social() {
           {" "}
           <img src="./1.png" className="h-7 w-7" />
         </a>
-      </motion.span>
+      </motion.span> */}
       <motion.span
         whileHover={{ scale: 1.1, rotate: 360 }}
         transition={{ type: "spring", duration: 0.5, stiffness: 300 }}
@@ -26,7 +26,7 @@ function Social() {
         className="cursor-pointer"
       >
         <a
-          href="https://www.linkedin.com/in/ritik-saini-819319293/"
+          href="https://www.linkedin.com/in/khushi-alodhan-a82906283/"
           target="_blank"
         >
           <img src="./3.png" className="h-7 w-7" />
@@ -38,7 +38,7 @@ function Social() {
         whileTap={{ scale: 0.9 }}
         className="cursor-pointer"
       >
-        <a href="https://github.com/ritik-sa0201" target="_blank">
+        <a href="https://github.com/khushialodhan17" target="_blank">
           <FaGithub />
         </a>
       </motion.span>

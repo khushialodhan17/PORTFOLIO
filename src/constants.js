@@ -34,9 +34,10 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 // import csharpLogo from './assets/tech_logo/csharp.png';
 // import framerMotion from "./assets/tech_logo/framer-motion.png";
 // import framer from "./assets/tech_logo/framer.jpeg";
-// import supabase from "./assets/tech_logo/supabase.png";
+import supabase from "./assets/tech_logo/supabase.png";
 import socket from "./assets/tech_logo/sockets.png";
 import gemini1 from "./assets/tech_logo/gemini1.png";
+import framerMotion from "./assets/tech_logo/framer-motion.png";
 
 export const SkillsInfo = [
   {
@@ -47,7 +48,7 @@ export const SkillsInfo = [
       // { name: 'SASS', logo: sassLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
-      { name: "Redux", logo: reduxLogo },
+      // { name: "Redux", logo: reduxLogo },
       // { name: 'Next JS', logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "GSAP", logo: gsapLogo },
