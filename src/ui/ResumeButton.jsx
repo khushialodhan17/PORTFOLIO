@@ -12,7 +12,7 @@ function ResumeButton() {
           "https://drive.google.com/file/d/1GlTbS55FZD7NI-vKCQzpwHzwGgNmqHM6/view?usp=sharing",
           "_blank"
         )
-      } // Replace with your resume URL
+      }
     >
       {/* Animated Background */}
       <motion.div
