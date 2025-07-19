@@ -53,8 +53,8 @@ function Projects() {
             }
           >
             <ImageContainer
-              imageSource={"pro2.png"}
-              description={"hello world"}
+              imageSource={"flexshelf.png"}
+              description={"FlexShelf - Dynamic Pricing Website"}
             />
           </motion.div>{" "}
 
