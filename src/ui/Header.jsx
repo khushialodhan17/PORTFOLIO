@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Points from "./Points";
 import ResumeButton from "./ResumeButton";
 import Social from "./Social";
-import { motion } from "framer-motion";
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);

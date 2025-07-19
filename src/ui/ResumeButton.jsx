@@ -1,6 +1,4 @@
 import { FaDownload } from "react-icons/fa";
-import { motion } from "framer-motion";
-
 function ResumeButton() {
   return (
     <motion.div
@@ -9,7 +7,7 @@ function ResumeButton() {
       className="relative inline-flex overflow-hidden rounded-3xl group"
       onClick={() =>
         window.open(
-          "https://drive.google.com/file/d/1GlTbS55FZD7NI-vKCQzpwHzwGgNmqHM6/view?usp=sharing",
+          "https://drive.google.com/file/d/1HP2fXk-cOYplu3Db3222cRtMyJvLK-kK/view?usp=sharing",
           "_blank"
         )
       }

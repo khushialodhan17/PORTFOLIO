@@ -14,7 +14,7 @@ function Social() {
         whileTap={{ scale: 0.9 }}
         className="cursor-pointer"
       >
-        <a href="https://leetcode.com/u/__ritik__saini/" target="_blank">
+        <a href="https://leetcode.com/u/i_code_daily/" target="_blank">
           {" "}
           <img src="./1.png" className="h-7 w-7" />
         </a>
