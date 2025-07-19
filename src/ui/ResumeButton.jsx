@@ -1,4 +1,5 @@
 import { FaDownload } from "react-icons/fa";
+import { motion } from "framer-motion";
 function ResumeButton() {
   return (
     <motion.div
