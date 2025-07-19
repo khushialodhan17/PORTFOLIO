@@ -49,7 +49,7 @@ function Projects() {
             className="image-item flex-shrink-0 w-[60vw]"
             whileHover={{ width: 1200 }}
             onClick={() =>
-              window.open("https://expense-mate-master.vercel.app/", "_blank")
+              window.open("https://flexshelf.vercel.app/", "_blank")
             }
           >
             <ImageContainer
