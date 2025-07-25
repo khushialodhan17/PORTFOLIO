@@ -8,7 +8,7 @@ function ResumeButton() {
       className="relative inline-flex overflow-hidden rounded-3xl group"
       onClick={() =>
         window.open(
-          "https://drive.google.com/file/d/1HP2fXk-cOYplu3Db3222cRtMyJvLK-kK/view?usp=sharing",
+          "https://drive.google.com/file/d/1_kx8-i3UlBgVxmLQoKb7GqQOELctck7m/view?usp=sharing",
           "_blank"
         )
       }
